@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PERSONAL SHOPPER RAYA 2026</title>
+<style>
+body { font-family: Arial; margin:0; padding:0; background:#white; }
+header { background:darkred; color:white; text-align:center; padding:20px 0;}
+header h1 { margin:0; font-size:28px;}
+header p { margin:5px 0 0; font-size:16px; }
+
+footer { 
+    background:#333; 
+    color:#fff; 
+    text-align:center; 
+    padding:15px 0; 
+    margin-top:20px; 
+}
+
+.kedai-section { padding:20px; background:white; }
+.kedai-section h2 { text-align:center; margin-bottom:15px; }
+.kedai-list { display:flex; flex-wrap:wrap; justify-content:center; gap:20px; }
+.kedai-box { background:#f1f1f1; padding:12px; border-radius:8px; width:180px; text-align:center; }
+.kedai-box h3 { margin-top:0; }
+.btn { display:inline-block; margin-top:8px; padding:8px 15px; background:darkred; color:white; text-decoration:none; border-radius:5px; }
+
+.produk-section { padding:30px 20px; }
+.produk-section h2 { text-align:center; margin-bottom:20px; }
+.produk-grid { display:flex; flex-wrap:wrap; gap:20px; justify-content:center; }
+.produk-card { background:#f1f1f1; border-radius:10px; box-shadow:0 2px 5px rgba(0,0,0,0.1); padding:15px; width:250px; text-align:center; }
+.produk-card h3 { margin:10px 0 5px 0; }
+.produk-card p { margin:5px 0; }
+.btn-wa { display:inline-block; margin-top:10px; padding:8px 12px; background:darkred; color:white; text-decoration:none; border-radius:5px; }
+
+.slider { position:relative; width:100%; height:250px; overflow:hidden; border-radius:10px; }
+.slides { display:flex; transition:transform 0.5s ease; }
+.slide-item { position:relative; min-width:100%; }
+.slide-item img { width:100%; height:250px; object-fit:cover; border-radius:10px; }
+.slide-title {
+  position:absolute;
+  bottom:8px;
+  left:50%;
+  transform:translateX(-50%);
+  background: rgba(0,0,0,0.5);
+  color:white;
+  padding:3px 6px;
+  border-radius:4px;
+  font-size:14px;
+}
+.prev, .next { position:absolute; top:50%; transform:translateY(-50%); background:rgba(0,0,0,0.4); color:white; border:none; padding:10px 14px; cursor:pointer; border-radius:50%; font-size:18px; }
+.prev:hover, .next:hover { background:rgba(0,0,0,0.7); }
+.prev{ left:10px; } .next{ right:10px; }
+
+footer { background:#333; color:#fff; text-align:center; padding:15px 0; margin-top:20px; }
+</style>
+</head>
+<body>
+
+<header>
+<h1>PERSONAL SHOPPER RAYA 2026</h1>
+<p>Pilih Kedai • Pilih Baju • Checkout</p>
+</header>
+
+<section class="kedai-section">
+<div class="kedai-list">
+<div class="kedai-box"><h3>BULAN BINTANG</h3><a href="#BULANBINTANG" class="btn">Lihat Pilihan</a></div>
+<div class="kedai-box"><h3>ASIKIN AHMAD</h3><a href="#ASIKINAHMAD" class="btn">Lihat Pilihan</a></div>
+<div class="kedai-box"><h3>JANNAHNOE</h3><a href="#JANNAHNOE" class="btn">Lihat Pilihan</a></div>
+<div class="kedai-box"><h3>HIJABISTAHUB</h3><a href="#HIJABISTAHUB" class="btn">Lihat Pilihan</a></div>
+</div>
+</section>
+
+<section id="BULANBINTANG" class="produk-section">
+<h2>BULAN BINTANG – Year End Sale 2025</h2>
+<h4 style="text-align:right;">valid until : 12 December 2025</h4>
+
+<div class="produk-grid">
+
+<div class="produk-card">
+<div class="slider">
+<div class="slides">
+<div class="slide-item"><img src="image/dahliaashblue.jpg" alt="dahlia"><p class="slide-title">ash blue - XS</p></div>
+</div>
+</div>
+<h3>Dahlia</h3>
+<p>Harga: RM69</p>
+<a class="btn-wa" href="https://wa.me/60142992105?text=Saya%20nak%20tempah%20Embun%20Kurung%20RM119" target="_blank">Tempah WhatsApp</a></div>
+
+<div class="produk-card">
+<div class="slider">
+<div class="slides">
+<div class="slide-item"><img src="image/graceburntorange.jpg" alt="grace"><p class="slide-title">burnt orange - XS</p></div>
+</div>
+</div>
+<h3>Grace</h3>
+<p>Harga: RM69</p>
+<a class="btn-wa" href="https://wa.me/60142992105?text=Saya%20nak%20tempah%20Seroja%20Kurung%20RM129" target="_blank">Tempah WhatsApp</a></div>
+
+<div class="produk-card">
+<div class="slider">
+<div class="slides">
+<div class="slide-item"><img src="image/violalilac.jpg" alt="viola"><p class="slide-title">lilac - XS</p></div>
+<div class="slide-item"><img src="image/violanude.jpg" alt="viola"><p class="slide-title">nude - XS</p></div>
+<div class="slide-item"><img src="image/violagreen.jpg" alt="viola"><p class="slide-title">green - XS - M</p></div>
+</div>
+<button class="prev" onclick="moveSlide(this,-1)">&#10094;</button>
+<button class="next" onclick="moveSlide(this,1)">&#10095;</button>
+</div>
+<h3>Viola</h3>
+<p>Harga: RM69</p>
+<a class="btn-wa" href="https://wa.me/60142992105?text=Saya%20nak%20tempah%20Embun%20Kurung%20RM119" target="_blank">Tempah WhatsApp</a></div>
+
+<div class="produk-card">
+<div class="slider">
+<div class="slides">
+<div class="slide-item"><img src="image/melatimossgreen.jpg" alt="melati"><p class="slide-title">mossgreen - XS,S,M</p></div>
+<div class="slide-item"><img src="image/melatiorangepeach.jpg" alt="melati"><p class="slide-title">orange peach - XS,S,2XL</p></div>
+</div>
+<button class="prev" onclick="moveSlide(this,-1)">&#10094;</button>
+<button class="next" onclick="moveSlide(this,1)">&#10095;</button>
+</div>
+<h3>Melati</h3>
+<p>Harga: RM69</p>
+<a class="btn-wa" href="https://wa.me/60142992105?text=Saya%20nak%20tempah%20Seroja%20Kurung%20RM129" target="_blank">Tempah WhatsApp</a></div>
+
+<div class="produk-card">
+<div class="slider">
+<div class="slides">
+<div class="slide-item"><img src="image/petunaravenblack.jpg" alt="petuna"><p class="slide-title">raven black - XS</p></div>
+<div class="slide-item"><img src="image/petunahoneydew.jpg" alt="petuna"><p class="slide-title">honeydew - XS,2XL</p></div>
+</div>
+<button class="prev" onclick="moveSlide(this,-1)">&#10094;</button>
+<button class="next" onclick="moveSlide(this,1)">&#10095;</button>
+</div>
+<h3>Petuna</h3>
+<p>Harga: RM69</p>
+<a class="btn-wa" href="https://wa.me/60142992105?text=Saya%20nak%20tempah%20Embun%20Kurung%20RM119" target="_blank">Tempah WhatsApp</a></div>
+
+<div class="produk-card">
+<div class="slider">
+<div class="slides">
+<div class="slide-item"><img src="image/anggeriklightpink.jpg" alt="anggerik"><p class="slide-title">lightpink - 3XL</p></div>
+</div>
+</div>
+<h3>Anggerik</h3>
+<p>Harga: RM69</p>
+<a class="btn-wa" href="https://wa.me/60142992105?text=Saya%20nak%20tempah%20Seroja%20Kurung%20RM129" target="_blank">Tempah WhatsApp</a></div>
+
+<div class="produk-card">
+<div class="slider">
+<div class="slides">
+<div class="slide-item"><img src="image/poppytaffypurple.jpg" alt="poppy"><p class="slide-title">taffy purple - XS,XL</p></div>
+<div class="slide-item"><img src="image/poppymatchagreen.jpg" alt="poppy"><p class="slide-title">matcha green - XS</p></div>
+</div>
+<button class="prev" onclick="moveSlide(this,-1)">&#10094;</button>
+<button class="next" onclick="moveSlide(this,1)">&#10095;</button>
+</div>
+<h3>Poppy</h3>
+<p>Harga: RM69</p>
+<a class="btn-wa" href="https://wa.me/60142992105?text=Saya%20nak%20tempah%20Embun%20Kurung%20RM119" target="_blank">Tempah WhatsApp</a></div>
+
+<div class="produk-card">
+<div class="slider">
+<div class="slides">
+<div class="slide-item"><img src="image/akasiaemerald.jpg" alt="akasia"><p class="slide-title">emerald green - S</p></div>
+<div class="slide-item"><img src="image/akasiamauvepurple.jpg" alt="akasia"><p class="slide-title">mauve purple - S,M</p></div>
+</div>
+<button class="prev" onclick="moveSlide(this,-1)">&#10094;</button>
+<button class="next" onclick="moveSlide(this,1)">&#10095;</button>
+</div>
+<h3>Akasia</h3>
+<p>Harga: RM69</p>
+<a class="btn-wa" href="https://wa.me/60142992105?text=Saya%20nak%20tempah%20Seroja%20Kurung%20RM129" target="_blank">Tempah WhatsApp</a></div>
+
+<div class="produk-card">
+<div class="slider">
+<div class="slides">
+<div class="slide-item"><img src="image/callagoldenyellow.jpg" alt="calla"><p class="slide-title">golden yellow - XS</p></div>
+</div>
+</div>
+<h3>Calla</h3>
+<p>Harga: RM69</p>
+<a class="btn-wa" href="https://wa.me/60142992105?text=Saya%20nak%20tempah%20Seroja%20Kurung%20RM129" target="_blank">Tempah WhatsApp</a></div>
+
+<div class="produk-card">
+<div class="slider">
+<div class="slides">
+<div class="slide-item"><img src="image/Lianaplatinumblue.jpg" alt="liana"><p class="slide-title">platinum blue - XL,2XL</p></div>
+</div>
+</div>
+<h3>Liana</h3>
+<p>Harga: RM69</p>
+<a class="btn-wa" href="https://wa.me/60142992105?text=Saya%20nak%20tempah%20Embun%20Kurung%20RM119" target="_blank">Tempah WhatsApp</a></div>
+
+<div class="produk-card">
+<div class="slider">
+<div class="slides">
+<div class="slide-item"><img src="image/jasminematchagreen.jpg" alt="jasmine"><p class="slide-title">matcha green - S</p>
+</div>
+<div class="slide-item"><img src="image/jasmineicyblue.jpg" alt="jasmine"><p class="slide-title">icy blue - L</p>
+</div>
+</div>
+<button class="prev" onclick="moveSlide(this,-1)">&#10094;</button>
+<button class="next" onclick="moveSlide(this,1)">&#10095;</button>
+</div>
+<h3>Jasmine</h3>
+<p>Harga: RM69</p>
+<a class="btn-wa" target="_blank"href="https://wa.me/60142992105?text=Saya%20nak%20tempah%20Seroja%20Kurung%20RM129">Tempah WhatsApp</a>
+</div>
+
+<div class="produk-card">
+<div class="slider">
+<div class="slides">
+<div class="slide-item"><img src="image/ambermaroon.jpg" alt="amber"><p class="slide-title">maroon - XS</p>
+</div>
+<div class="slide-item"><img src="image/amberravenblack.jpg" alt="amber"><p class="slide-title">raven black - S</p>
+</div>
+</div>
+<button class="prev" onclick="moveSlide(this,-1)">&#10094;</button>
+<button class="next" onclick="moveSlide(this,1)">&#10095;</button>
+</div>
+<h3>Amber</h3>
+<p>Harga: RM69</p>
+<a class="btn-wa" target="_blank"href="https://wa.me/60142992105?text=Saya%20nak%20tempah%20Embun%20Kurung%20RM119">Tempah WhatsApp</a>
+</div>
+
+<div class="produk-card">
+<div class="slider">
+<div class="slide-item"><img src="image/lilythistlepurple.jpg" alt="lily"><p class="slide-title">thistle purple - 2XL</p>
+</div>
+</div>
+<h3>Lily</h3>
+<p>Harga: RM69</p>
+<a class="btn-wa" target="_blank"href="https://wa.me/60142992105?text=Saya%20nak%20tempah%20Seroja%20Kurung%20RM129">Tempah WhatsApp</a>
+</div>
+
+</section>
+</div>
+
+<section id="ASIKINAHMAD" class="produk-section">
+<h2>ASIKIN AHMAD – Year End Sale 2025</h2>
+<h4 style="text-align:right;"> valid until: 01 - 31 December 2025</h4>
+<div class="produk-grid">
+
+<div class="produk-card">
+<div class="slider">
+<div class="slides">
+  <div class="slide-item"><img src="image/embun_whitebrown.jpg" alt="Embun Kurung "><p class="slide-title">Whitebrown - Saiz - XS,M</p></div>
+  <div class="slide-item"><img src="image/embun_whiteblue.jpg" alt="Embun Kurung "><p class="slide-title">Whiteblue - Saiz - XS,S</p></div>
+  <div class="slide-item"><img src="image/embun_olive.jpg" alt="Embun Kurung "><p class="slide-title">Olive - Saiz - S</p></div>
+  <div class="slide-item"><img src="image/embun_brown.jpg" alt="Embun Kurung "><p class="slide-title">Brown - Saiz - XS,S,M,XL,2XL</p></div>
+</div>
+<button class="prev" onclick="moveSlide(this,-1)">&#10094;</button>
+<button class="next" onclick="moveSlide(this,1)">&#10095;</button>
+</div>
+<h3>EMBUN KURUNG</h3>
+<p>Harga: RM119</p>
+<a class="btn-wa" href="https://wa.me/60142992105?text=Saya%20nak%20tempah%20Embun%20Kurung%20RM119" target="_blank">Tempah WhatsApp</a>
+</div>
+
+<div class="produk-card">
+<div class="slider">
+<div class="slides">
+  <div class="slide-item"><img src="image/widuri002.jpg" alt="Widuri kebarung"><p class="slide-title">002 - Saiz - S</p></div>
+  <div class="slide-item"><img src="image/widuri003.jpg" alt="Widuri kebarung"><p class="slide-title">003 - Saiz - XS,S,L</p></div>
+  <div class="slide-item"><img src="image/widuri010.jpg" alt="Widuri kebarung"><p class="slide-title">010 - S</p></div>
+  <div class="slide-item"><img src="image/widuri014.jpg" alt="Widuri kebarung"><p class="slide-title">014 - S</p></div>
+  <div class="slide-item"><img src="image/widuri015.jpg" alt="Widuri kebarung"><p class="slide-title">015 - Saiz - S</p></div>
+  <div class="slide-item"><img src="image/widuri016.jpg" alt="Widuri kebarung"><p class="slide-title">016- Saiz - S/p</p></div>
+  <div class="slide-item"><img src="image/widuri017.jpg" alt="Widuri kebarung"><p class="slide-title">017 - Saiz - XS</p></div>
+</div>
+<button class="prev" onclick="moveSlide(this,-1)">&#10094;</button>
+<button class="next" onclick="moveSlide(this,1)">&#10095;</button>
+</div>
+<h3>WIDURI KEBARUNG</h3>
+<p>Harga: RM139</p>
+<a class="btn-wa" href="https://wa.me/60142992105?text=Saya%20nak%20tempah%20Seroja%20Kurung%20RM129" target="_blank">Tempah WhatsApp</a>
+</div>
+
+<div class="produk-card">
+<div class="slider">
+  <div class="slide-item"><img src="image/mekarsuri_caramelbrown.jpg" alt="Mekar Suri Kurung"><p class="slide-title">Caremalbrown - Saiz - XL</p></div>
+</div>
+<h3>MEKAR SURI KURUNG</h3>
+<p>Harga: RM111.00</p>
+<a class="btn-wa" href="https://wa.me/60142992105?text=Saya%20nak%20tempah%20Embun%20Kurung%20RM119" target="_blank">Tempah WhatsApp</a>
+</div>
+
+<div class="produk-card">
+<div class="slider">
+  <div class="slide-item"><img src="image/orked_brown.jpg" alt="Orkid Kurung"><p class="slide-title">Brown - Saiz - S</p></div>
+</div>
+<h3>ORKED KURUNG</h3>
+<p>Harga: RM109.00</p>
+<a class="btn-wa" href="https://wa.me/60142992105?text=Saya%20nak%20tempah%20Embun%20Kurung%20RM119" target="_blank">Tempah WhatsApp</a>
+</div>
+
+<div class="produk-card">
+<div class="slider">
+<div class="slides">
+  <div class="slide-item"><img src="image/widuri_dustypink.jpg" alt="Widuri kebarung"><p class="slide-title">Dustypink - S</p></div>
+  <div class="slide-item"><img src="image/widuri_gold.jpg" alt="Widuri kebarung"><p class="slide-title">Gold - S</p></div>
+  <div class="slide-item"><img src="image/widuri_grey.jpg" alt="Widuri kebarung"><p class="slide-title">Grey - S</p></div>
+</div>
+<button class="prev" onclick="moveSlide(this,-1)">&#10094;</button>
+<button class="next" onclick="moveSlide(this,1)">&#10095;</button>
+</div>
+<h3>WIDURI KEBARUNG</h3>
+<p>Harga: RM189.00</p>
+<a class="btn-wa" href="https://wa.me/60142992105?text=Saya%20nak%20tempah%20Seroja%20Kurung%20RM129" target="_blank">Tempah WhatsApp</a>
+</div>
+
+<div class="produk-card">
+<div class="slider">
+<div class="slides">
+  <div class="slide-item"><img src="image/noorma_babyblue.jpg" alt="Noorma kebarung"><p class="slide-title">Babyblue - Saiz - S</p></div>
+  <div class="slide-item"><img src="image/noorma_brown.jpg" alt="Noorma kebarung"><p class="slide-title">Brown - Saiz - XS, S</p></div>
+  <div class="slide-item"><img src="image/noorma_emerald.jpg" alt="Noorma kebarung"><p class="slide-title">Emerald - Saiz - XS</p></div>
+  <div class="slide-item"><img src="image/noorma_snowwhite.jpg" alt="Noorma kebarung"><p class="slide-title">Snowwhite - Saiz - S</p></div>
+  <div class="slide-item"><img src="image/noorma_dustyrose.jpg" alt="Noorma kebarung"><p class="slide-title">Dustyrose - Saiz - S</p></div>
+</div>
+<button class="prev" onclick="moveSlide(this,-1)">&#10094;</button>
+<button class="next" onclick="moveSlide(this,1)">&#10095;</button>
+</div>
+<h3>NOORMA KEBARUNG</h3>
+<p>Harga: RM129</p>
+<a class="btn-wa" href="https://wa.me/60142992105?text=Saya%20nak%20tempah%20Embun%20Kurung%20RM119" target="_blank">Tempah WhatsApp</a>
+</div>
+
+<div class="produk-card">
+<div class="slider">
+<div class="slides">
+  <div class="slide-item"><img src="image/sally_coralpink.jpg" alt="Sally kurung riau"><p class="slide-title">Coralpink - XS</p></div>
+  <div class="slide-item"><img src="image/sally_deepblack.jpg" alt="Sally kurung riau"><p class="slide-title">Deepblack - XS,S</p></div>
+  <div class="slide-item"><img src="image/sally_marroon.jpg" alt="Sally kurung riau"><p class="slide-title">Marroon - XS</p></div>
+  <div class="slide-item"><img src="image/sally_mustard.jpg" alt="Sally kurung riau"><p class="slide-title">Mustard - S</p></div>
+</div>
+<button class="prev" onclick="moveSlide(this,-1)">&#10094;</button>
+<button class="next" onclick="moveSlide(this,1)">&#10095;</button>
+</div>
+<h3>SALLY KURUNG RIAU</h3>
+<p>Harga: RM149.00</p>
+<a class="btn-wa" href="https://wa.me/60142992105?text=Saya%20nak%20tempah%20Seroja%20Kurung%20RM129" target="_blank">Tempah WhatsApp</a>
+</div>
+
+<div class="produk-card">
+<div class="slider">
+  <div class="slide-item"><img src="image/chemelur_black.jpg" alt="Sally kurung riau"><p class="slide-title">Black - S</p></div>
+</div>
+<h3>CHE MELUR KURUNG</h3>
+<p>Harga: RM169.00</p>
+<a class="btn-wa" href="https://wa.me/60142992105?text=Saya%20nak%20tempah%20Seroja%20Kurung%20RM129" target="_blank">Tempah WhatsApp</a>
+</div>
+
+<div class="produk-card">
+<div class="slider">
+<div class="slides">
+  <div class="slide-item"><img src="image/cheaminah_black.jpg" alt="Che aminah kurung"><p class="slide-title">Black - XS,S,M,L,XL,2XL</p></div>
+  <div class="slide-item"><img src="image/cheaminah_richbrown.jpg" alt="Che aminah kurung"><p class="slide-title">Rich brown - XS,</p></div>
+  <div class="slide-item"><img src="image/cheaminah_emerald.jpg" alt="Che aminah kurung"><p class="slide-title">Emerald - XS,S,M,XL</p></div>
+  <div class="slide-item"><img src="image/cheaminah_olive.jpg" alt="Che aminah kurung"><p class="slide-title">Olive - XS,S</p></div>
+  <div class="slide-item"><img src="image/cheaminah_babyblue.jpg" alt="Che aminah kurung"><p class="slide-title">Babyblue - XS,S,XL</p></div>
+</div>
+<button class="prev" onclick="moveSlide(this,-1)">&#10094;</button>
+<button class="next" onclick="moveSlide(this,1)">&#10095;</button>
+</div>
+<h3>CHE AMINAH KURUNG</h3>
+<p>Harga: RM169</p>
+<a class="btn-wa" href="https://wa.me/60142992105?text=Saya%20nak%20tempah%20Seroja%20Kurung%20RM129" target="_blank">Tempah WhatsApp</a>
+</div>
+
+</div>
+</section>
+
+<section id="JANNAHNOE" class="produk-section">
+<h2>JANNAHNOE – Year End Sale 2025</h2>
+<h4 style="text-align:right;">valid untul : 5 December 2025 - 4 January 2026</h4>
+<div class="produk-grid">
+
+<div class="produk-card">
+<div class="slider">
+  <div class="slides">
+  <div class="slide-item"><img src="image/aralynnlightpink.jpeg" alt="aralynn"><p class="slide-title">light pink - XS,S,M,L,XL</p></div>
+  <div class="slide-item"><img src="image/aralynnyellow.jpeg" alt="aralynn"><p class="slide-title">yellow - XS,S,M,L,XL</p></div>
+  <div class="slide-item"><img src="image/aralynnpeach.jpeg" alt="aralynn"><p class="slide-title">peach- XS,S,M,L</p></div>
+</div>
+<button class="prev" onclick="moveSlide(this,-1)">&#10094;</button>
+<button class="next" onclick="moveSlide(this,1)">&#10095;</button>
+</div>
+<h3>Aralynn Kurung</h3>
+<p>Harga: RM58</p>
+<a class="btn-wa" href="https://wa.me/60142992105?text=Saya%20nak%20tempah%20Embun%20Kurung%20RM119" target="_blank">Tempah WhatsApp</a>
+</div>
+
+<div class="produk-card">
+<div class="slider">
+  <div class="slide-item"><img src="image/madeehakaftan.jpeg" alt="madeena kaftan"><p class="slide-title">brown - XS,M,L</p></div>
+</div>
+<h3>Madeeha kaftan</h3>
+<p>Harga: RM58</p>
+<a class="btn-wa" href="https://wa.me/60142992105?text=Saya%20nak%20tempah%20Embun%20Kurung%20RM119" target="_blank">Tempah WhatsApp</a>
+</div>
+
+<div class="produk-card">
+<div class="slider">
+<div class="slides">
+  <div class="slide-item"><img src="image/grethapurple.jpeg" alt="gretna"><p class="slide-title">purple - XL</p></div>
+  <div class="slide-item"><img src="image/grethatifannyblue.jpeg" alt="gretna"><p class="slide-title">tifanny blue - XS,S,M,L,XL,2XL</p></div>
+  <div class="slide-item"><img src="image/grethaturqoise.jpeg" alt="gretna"><p class="slide-title">turqouise - XS,S,M,L,XL,2XL</p></div>
+</div>
+<button class="prev" onclick="moveSlide(this,-1)">&#10094;</button>
+<button class="next" onclick="moveSlide(this,1)">&#10095;</button>
+</div>
+<h3>Gretha kurung</h3>
+<p>Harga: RM88</p>
+<a class="btn-wa" href="https://wa.me/60142992105?text=Saya%20nak%20tempah%20Embun%20Kurung%20RM119" target="_blank">Tempah WhatsApp</a>
+</div>
+
+<div class="produk-card">
+<div class="slider">
+<div class="slides">
+  <div class="slide-item"><img src="image/mauracornflower.jpeg" alt="maura"><p class="slide-title">cornflower blue - XS,S,M,L,XL,2XL</p></div>
+  <div class="slide-item"><img src="image/mauradustypink.jpeg" alt="maura"><p class="slide-title">dusty pink - XS,S,2XL</p></div>
+  <div class="slide-item"><img src="image/maurablack.jpeg" alt="maura"><p class="slide-title">black - XS,S,XL,2XL</p></div>
+  <div class="slide-item"><img src="image/mauralilac.jpeg" alt="maura"><p class="slide-title">lilac - XS,S,M,2XL</p></div>
+  <div class="slide-item"><img src="image/mauramarroon.jpeg" alt="maura"><p class="slide-title">marroon - XS,S,XL,2XL</p></div>
+  <div class="slide-item"><img src="image/mauranavyblue.jpeg" alt="maura"><p class="slide-title">navy blue - XS,S,M</p></div>
+  <div class="slide-item"><img src="image/mauranude.jpeg" alt="maura"><p class="slide-title">nude - XS,S</p></div>
+  <div class="slide-item"><img src="image/mauraoffwhite.jpeg" alt="maura"><p class="slide-title">offwhite - XS,S</p></div>
+  <div class="slide-item"><img src="image/maurasagegreen.jpeg" alt="maura"><p class="slide-title">sage green - XS,S,M,L,XL,2XL</p></div>
+  <div class="slide-item"><img src="image/mauralightyellow.jpeg" alt="maura"><p class="slide-title">light yellow - XS,S,L</p></div>
+</div>
+<button class="prev" onclick="moveSlide(this,-1)">&#10094;</button>
+<button class="next" onclick="moveSlide(this,1)">&#10095;</button>
+</div>
+<h3>Maura kurung</h3>
+<p>Harga: RM88</p>
+<a class="btn-wa" href="https://wa.me/60142992105?text=Saya%20nak%20tempah%20Seroja%20Kurung%20RM129" target="_blank">Tempah WhatsApp</a>
+</div>
+
+<div class="produk-card">
+<div class="slider">
+<div class="slides">
+  <div class="slide-item"><img src="image/qairynaapeach.jpeg" alt="qairynaa"><p class="slide-title">peach - L,XL,2XL,3XL</p></div>
+  <div class="slide-item"><img src="image/qairynaalilac.jpeg" alt="qairynaa"><p class="slide-title">lilac - L,XL,2XL,3XL</p></div>
+  <div class="slide-item"><img src="image/qairynaalightyellow.jpeg" alt="qairynaa"><p class="slide-title">light yellow - 3XL</p></div>
+</div>
+<button class="prev" onclick="moveSlide(this,-1)">&#10094;</button>
+<button class="next" onclick="moveSlide(this,1)">&#10095;</button>
+</div>
+<h3>Qairynaa Kurung</h3>
+<p>Harga: RM88</p>
+<a class="btn-wa" href="https://wa.me/60142992105?text=Saya%20nak%20tempah%20Embun%20Kurung%20RM119" target="_blank">Tempah WhatsApp</a>
+</div>
+
+<div class="produk-card">
+<div class="slider">
+<div class="slides">
+  <div class="slide-item"><img src="image/primroseolive.jpeg" alt="primrose"><p class="slide-title">olive - XS,S,3XL</p></div>
+  <div class="slide-item"><img src="image/primroselightgreen.jpeg" alt="primrose"><p class="slide-title">light green - XS,S,M,L,XL,2XL,3XL</p></div>
+  <div class="slide-item"><img src="image/primrosebutterscotch.jpeg" alt="primrose"><p class="slide-title">butterscotch - S</p></div>
+</div>
+<button class="prev" onclick="moveSlide(this,-1)">&#10094;</button>
+<button class="next" onclick="moveSlide(this,1)">&#10095;</button>
+</div>
+<h3>Primrose kurung</h3>
+<p>Harga: RM88</p>
+<a class="btn-wa" href="https://wa.me/60142992105?text=Saya%20nak%20tempah%20Embun%20Kurung%20RM119" target="_blank">Tempah WhatsApp</a>
+</div>
+
+<div class="produk-card">
+<div class="slider">
+  <div class="slide-item"><img src="image/larissaemerald.jpeg" alt="larissa"><p class="slide-title">emerald green - XL,2XL</p></div>
+</div>
+<h3>Larissa kurung</h3>
+<p>Harga: RM88</p>
+<a class="btn-wa" href="https://wa.me/60142992105?text=Saya%20nak%20tempah%20Embun%20Kurung%20RM119" target="_blank">Tempah WhatsApp</a>
+</div>
+
+<div class="produk-card">
+<div class="slider">
+<div class="slides">
+  <div class="slide-item"><img src="image/marciacornflowerblue.jpeg" alt="marcia"><p class="slide-title">cornflower blue - XS,S,M,L,XL,2XL</p></div>
+  <div class="slide-item"><img src="image/marciadustypink.jpeg" alt="marcia"><p class="slide-title">dusty pink - XS,S,L,2XL</p></div>
+  <div class="slide-item"><img src="image/marciablack.jpeg" alt="marcia"><p class="slide-title">black - XS,S,M</p></div>
+  <div class="slide-item"><img src="image/marcialightyellow.jpeg" alt="marcia"><p class="slide-title">lightyellow - XS,S,M,2XL</p></div>
+  <div class="slide-item"><img src="image/marcialilac.jpeg" alt="marcia"><p class="slide-title">lilac - XS,S,M,L,2XL</p></div>
+  <div class="slide-item"><img src="image/marciamarroon.jpeg" alt="marcia"><p class="slide-title">marroon - XS,S,XL,2XL</p></div>
+  <div class="slide-item"><img src="image/marcianavyblue.jpeg" alt="marcia"><p class="slide-title">navy blue - XS,S,XL,2XL</p></div>
+  <div class="slide-item"><img src="image/marcianude.jpeg" alt="marcia"><p class="slide-title">nude - XS,S,M,L,XL,2XL</p></div>
+  <div class="slide-item"><img src="image/marciaoffwhite.jpeg" alt="marcia"><p class="slide-title">offwhite - S,M,XL,2XL</p></div>
+  <div class="slide-item"><img src="image/marciasagegreen.jpeg" alt="marcia"><p class="slide-title">sage green - XS,S,M,L,XL,2XL</p></div>
+</div>
+<button class="prev" onclick="moveSlide(this,-1)">&#10094;</button>
+<button class="next" onclick="moveSlide(this,1)">&#10095;</button>
+</div>
+<h3>Marcia kurung</h3>
+<p>Harga: RM98</p>
+<p>Saiz: S, M</p>
+<a class="btn-wa" href="https://wa.me/60142992105?text=Saya%20nak%20tempah%20Seroja%20Kurung%20RM129" target="_blank">Tempah WhatsApp</a>
+</div>
+
+<div class="produk-card">
+<div class="slider">
+<div class="slides">
+  <div class="slide-item"><img src="image/quinnsalmon.jpeg" alt="quinn"><p class="slide-title">salmon - XS,S,M,L,XL,2XL,3XL</p></div>
+  <div class="slide-item"><img src="image/quinnmauve.jpeg" alt="quinn"><p class="slide-title">mouve - XS,S,M,L,XL,2XL,3XL</p></div>
+  <div class="slide-item"><img src="image/quinnbeige.jpeg" alt="quinn"><p class="slide-title">beige- XS,S,M,L,2XL</p></div>
+</div>
+<button class="prev" onclick="moveSlide(this,-1)">&#10094;</button>
+<button class="next" onclick="moveSlide(this,1)">&#10095;</button>
+</div>
+<h3>Quinn Kurung</h3>
+<p>Harga: RM98</p>
+<a class="btn-wa" href="https://wa.me/60142992105?text=Saya%20nak%20tempah%20Embun%20Kurung%20RM119" target="_blank">Tempah WhatsApp</a>
+</div>
+
+<div class="produk-card">
+<div class="slider">
+<div class="slides">
+  <div class="slide-item"><img src="image/yaraoffwhite.jpeg" alt="yara"><p class="slide-title">offwhite - XS,S,L,XL,2XL</p></div>
+  <div class="slide-item"><img src="image/yaranude.jpeg" alt="yara"><p class="slide-title">nude - L,XL,2XL</p></div>
+  <div class="slide-item"><img src="image/yaragrey.jpeg" alt="yara"><p class="slide-title">grey - XS,S,L,XL,2XL</p></div>
+</div>
+<button class="prev" onclick="moveSlide(this,-1)">&#10094;</button>
+<button class="next" onclick="moveSlide(this,1)">&#10095;</button>
+</div>
+<h3>Yara kurung</h3>
+<p>Harga: RM98</p>
+<a class="btn-wa" href="https://wa.me/60142992105?text=Saya%20nak%20tempah%20Embun%20Kurung%20RM119" target="_blank">Tempah WhatsApp</a>
+</div>
+
+<div class="produk-card">
+<div class="slider">
+  <div class="slide-item"><img src="image/islaoffwhite.jpeg" alt="isla"><p class="slide-title">offwhite - XS,S,L,XL,2XL</p></div>
+</div>
+<h3>Isla kurung</h3>
+<p>Harga: RM98</p>
+<a class="btn-wa" href="https://wa.me/60142992105?text=Saya%20nak%20tempah%20Embun%20Kurung%20RM119" target="_blank">Tempah WhatsApp</a>
+</div>
+
+<div class="produk-card">
+<div class="slider">
+<div class="slides">
+  <div class="slide-item"><img src="image/feliyaoffwhite.jpeg" alt="feliya"><p class="slide-title">offwhite - XS,S,M,L,XL,2XL</p></div>
+  <div class="slide-item"><img src="image/feliyachampange.jpeg" alt="feliya"><p class="slide-title">champange - XS</p></div>
+  <div class="slide-item"><img src="image/feliyagrey.jpeg" alt="feliya"><p class="slide-title">grey - XS,S,L,XL,2XL</p></div>
+</div>
+<button class="prev" onclick="moveSlide(this,-1)">&#10094;</button>
+<button class="next" onclick="moveSlide(this,1)">&#10095;</button>
+</div>
+<h3>Feliya kurung</h3>
+<p>Harga: RM98</p>
+<a class="btn-wa" href="https://wa.me/60142992105?text=Saya%20nak%20tempah%20Seroja%20Kurung%20RM129" target="_blank">Tempah WhatsApp</a>
+</div>
+
+<div class="produk-card">
+<div class="slider">
+<div class="slides">
+  <div class="slide-item"><img src="image/dashiaoffwhite.jpeg" alt="dashia"><p class="slide-title">offwhite - XS</p></div>
+  <div class="slide-item"><img src="image/dashiagrey.jpeg" alt="dashia"><p class="slide-title">grey - XS</p></div>
+</div>
+<button class="prev" onclick="moveSlide(this,-1)">&#10094;</button>
+<button class="next" onclick="moveSlide(this,1)">&#10095;</button>
+</div>
+<h3>Dashia Kurung</h3>
+<p>Harga: RM98</p>
+<a class="btn-wa" href="https://wa.me/60142992105?text=Saya%20nak%20tempah%20Embun%20Kurung%20RM119" target="_blank">Tempah WhatsApp</a>
+</div>
+
+<div class="produk-card">
+<div class="slider">
+<div class="slides">
+  <div class="slide-item"><img src="image/rueoffwhite.jpeg" alt="rue"><p class="slide-title">offwhite - XS,XL,2XL</p></div>
+  <div class="slide-item"><img src="image/ruegrey.jpeg" alt="rue"><p class="slide-title">grey - 2XL</p></div>
+</div>
+<button class="prev" onclick="moveSlide(this,-1)">&#10094;</button>
+<button class="next" onclick="moveSlide(this,1)">&#10095;</button>
+</div>
+<h3>Rue kurung</h3>
+<p>Harga: RM98</p>
+<a class="btn-wa" href="https://wa.me/60142992105?text=Saya%20nak%20tempah%20Embun%20Kurung%20RM119" target="_blank">Tempah WhatsApp</a>
+</div>
+
+<div class="produk-card">
+<div class="slider">
+  <div class="slide-item"><img src="image/ernessaoffwhite.jpeg" alt="ernissa"><p class="slide-title">offwhite - XS</p></div>
+</div>
+<h3>Ernessa kurung</h3>
+<p>Harga: RM98</p>
+<a class="btn-wa" href="https://wa.me/60142992105?text=Saya%20nak%20tempah%20Embun%20Kurung%20RM119" target="_blank">Tempah WhatsApp</a>
+</div>
+
+<div class="produk-card">
+<div class="slider">
+<div class="slides">
+  <div class="slide-item"><img src="image/hanyaoffwhite.jpeg" alt="hanya"><p class="slide-title">offwhite - XS</p></div>
+  <div class="slide-item"><img src="image/hanyanude.jpeg" alt="hanya"><p class="slide-title">nude - XS</p></div>
+  <div class="slide-item"><img src="image/hanyagrey.jpeg" alt="hanya"><p class="slide-title">grey - XS</p></div>
+</div>
+<button class="prev" onclick="moveSlide(this,-1)">&#10094;</button>
+<button class="next" onclick="moveSlide(this,1)">&#10095;</button>
+</div>
+<h3>Hanya kurung</h3>
+<p>Harga: RM98</p>
+<a class="btn-wa" href="https://wa.me/60142992105?text=Saya%20nak%20tempah%20Seroja%20Kurung%20RM129" target="_blank">Tempah WhatsApp</a>
+</div>
+
+</div>
+</section>
+
+<section id="HIJABISTAHUB" class="produk-section">
+<h2>HIJABISTAHUB</h2>
+<div class="produk-grid">
+
+<div class="produk-card">
+<div class="slider">
+<div class="slides">
+  <div class="slide-item"><img src="imageee/ainarabeige.jpg" alt="ainara"><p class="slide-title">beige - S,L</p></div>
+  <div class="slide-item"><img src="imageee/ainarablack.jpg" alt="ainara"><p class="slide-title">black - S,M,L</p></div>
+  <div class="slide-item"><img src="imageee/ainaradustypink.jpg" alt="ainara"><p class="slide-title">dustypink - L</p></div>
+  <div class="slide-item"><img src="imageee/ainaragingeryellow.jpg" alt="ainara"><p class="slide-title">ginger yellow - S,M,L,XL</p></div>
+  <div class="slide-item"><img src="imageee/ainaralavender.jpg" alt="ainara"><p class="slide-title">lavendar - ,S,M,L,XL</p></div>
+  <div class="slide-item"><img src="imageee/ainaralightblue.jpg" alt="ainara"><p class="slide-title">lightblue - S,M,L,XL</p></div>
+  <div class="slide-item"><img src="imageee/ainaraoffwhite.jpg" alt="ainara"><p class="slide-title">offwhite - S,M,L,XL</p></div>
+  <div class="slide-item"><img src="imageee/ainarachampagne.jpg" alt="ainara"><p class="slide-title">champagne - L</p></div>
+  <div class="slide-item"><img src="imageee/ainaragreentea.jpg" alt="ainara"><p class="slide-title">greentea - S,M,XL</p></div>
+  <div class="slide-item"><img src="imageee/ainaranavyblue.jpg" alt="ainara"><p class="slide-title">navy blue - S,L,XL</p></div>
+</div>
+<button class="prev" onclick="moveSlide(this,-1)">&#10094;</button>
+<button class="next" onclick="moveSlide(this,1)">&#10095;</button>
+</div>
+<h3>Ainara kurung</h3>
+<p>Harga: RM129</p>
+<a class="btn-wa" href="https://wa.me/60142992105?text=Saya%20nak%20tempah%20Embun%20Kurung%20RM119" target="_blank">Tempah WhatsApp</a>
+</div>
+
+<div class="produk-card">
+<div class="slider">
+<div class="slides">
+<div class="slide-item"><img src="imageee/elvaraaquablue.jpg" alt="elvara"><p class="slide-title">aqua blue - M</p></div>
+<div class="slide-item"><img src="imageee/elvararussetbrown.jpg" alt="elvara"><p class="slide-title">russet brown - XS, S, M</p></div>
+<div class="slide-item"><img src="imageee/elvarapeach.jpg" alt="elvara"><p class="slide-title">peach - M</p></div>
+<div class="slide-item"><img src="imageee/elvaraburgundy.jpg" alt="elvara"><p class="slide-title">burgundy - S, M, L</p></div>
+<div class="slide-item"><img src="imageee/elvaralilac.jpg" alt="elvara"><p class="slide-title">lilac - M</p></div>
+<div class="slide-item"><img src="imageee/elvaragrey.jpg" alt="elvara"><p class="slide-title">grey - M</p></div>
+<div class="slide-item"><img src="imageee/elvaramistyblue.jpg" alt="elvara"><p class="slide-title">misty blue - M</p></div>
+<div class="slide-item"><img src="imageee/elvaraoffwhite.jpg" alt="elvara"><p class="slide-title">off white - S, L</p></div>
+</div>
+<button class="prev" onclick="moveSlide(this,-1)">&#10094;</button>
+<button class="next" onclick="moveSlide(this,1)">&#10095;</button>
+</div>
+<h3>Elvara mini kurung</h3>
+<p>Harga: RM169</p>
+<a class="btn-wa" href="https://wa.me/60142992105?text=Saya%20nak%20tempah%20Elvara%20Mini%20Kurung%20RM169" target="_blank">Tempah WhatsApp</a>
+</div>
+
+<div class="produk-card">
+<div class="slider">
+<div class="slides">
+  <div class="slide-item"><img src="imageee/athleaburgundy.jpg" alt="elvara"><p class="slide-title">burgundy  - XS,S,M</p></div>
+  <div class="slide-item"><img src="imageee/athleaoffwhite.jpg" alt="elvara"><p class="slide-title">offwhite - S,M,L,XL</div>
+  <div class="slide-item"><img src="imageee/athleachampagne.jpg" alt="elvara"><p class="slide-title">champagne - XS,S,M,L,XL</p></div>
+  <div class="slide-item"><img src="imageee/athleamauve.jpg" alt="elvara"><p class="slide-title">mauve  - XS,XL</p></div>
+</div>
+<button class="prev" onclick="moveSlide(this,-1)">&#10094;</button>
+<button class="next" onclick="moveSlide(this,1)">&#10095;</button>
+</div>
+<h3>Athlea kurung</h3>
+<p>Harga: RM239</p>
+<a class="btn-wa" href="https://wa.me/60142992105?text=Saya%20nak%20tempah%20Embun%20Kurung%20RM119" target="_blank">Tempah WhatsApp</a>
+</div>
+
+<div class="produk-card">
+<div class="slider">
+<div class="slides">
+  <div class="slide-item"><img src="imageee/nadrablack.jpg" alt="elvara"><p class="slide-title">black - XS,S</p></div>
+  <div class="slide-item"><img src="imageee/nadrabrown.jpg" alt="elvara"><p class="slide-title">brown - XS,S,M,L</p></div>
+  <div class="slide-item"><img src="imageee/nadraburgundy.jpg" alt="elvara"><p class="slide-title">burgundy - XS</p></div>
+  <div class="slide-item"><img src="imageee/nadraemeraldgreen.jpg" alt="elvara"><p class="slide-title">emerald green - XS,S,M,</p></div>
+  <div class="slide-item"><img src="imageee/nadraoffwhite.jpg" alt="elvara"><p class="slide-title">off white - XS,S,M,LXL,2XL</p></div>
+</div>
+<button class="prev" onclick="moveSlide(this,-1)">&#10094;</button>
+<button class="next" onclick="moveSlide(this,1)">&#10095;</button>
+</div>
+<h3>Nadra kurung</h3>
+<p>Harga: RM229</p>
+<a class="btn-wa" href="https://wa.me/60142992105?text=Saya%20nak%20tempah%20Embun%20Kurung%20RM119" target="_blank">Tempah WhatsApp</a>
+</div>
+
+<div class="produk-card">
+<div class="slider">
+<div class="slides">
+  <div class="slide-item"><img src="imageee/qairinablack.jpg" alt="elvara"><p class="slide-title">black - XS,S,M,L,XL,2XL</p></div>
+  <div class="slide-item"><img src="imageee/qairinalightyellow.jpg" alt="elvara"><p class="slide-title">light yellow - M,L,XL,2XL</p></div>
+</div>
+<button class="prev" onclick="moveSlide(this,-1)">&#10094;</button>
+<button class="next" onclick="moveSlide(this,1)">&#10095;</button>
+</div>
+<h3>Qairina kurung</h3>
+<p>Harga: RM239</p>
+<a class="btn-wa" href="https://wa.me/60142992105?text=Saya%20nak%20tempah%20Embun%20Kurung%20RM119" target="_blank">Tempah WhatsApp</a>
+</div>
+
+<div class="produk-card">
+<div class="slider">
+ <div class="slides"> 
+  <div class="slide-item"><img src="imageee/wardanichampagne.jpg" alt="elvara"><p class="slide-title">champagne - XS</p></div>
+  <div class="slide-item"><img src="imageee/wardaniburgandy.jpg" alt="elvara"><p class="slide-title">burgundy - XS</p></div>
+  <div class="slide-item"><img src="imageee/wardanimistyblue.jpg" alt="elvara"><p class="slide-title">misty blue - XS,XL</p></div>
+  <div class="slide-item"><img src="imageee/wardaniemeraldgreen.jpg" alt="elvara"><p class="slide-title">emerald green - XS</p></div>
+</div>
+<button class="prev" onclick="moveSlide(this,-1)">&#10094;</button>
+<button class="next" onclick="moveSlide(this,1)">&#10095;</button>
+</div>
+<h3>Wardani kurung</h3>
+<p>Harga: RM239</p>
+<a class="btn-wa" href="https://wa.me/60142992105?text=Saya%20nak%20tempah%20Embun%20Kurung%20RM119" target="_blank">Tempah WhatsApp</a>
+</div>
+
+<div class="produk-card">
+<div class="slider">
+  <div class="slide-item"><img src="imageee/tisyablack.jpg" alt="elvara"><p class="slide-title">rblack - XS</p></div>
+</div>
+<h3> Tisya kurung</h3>
+<p>Harga: RM249</p>
+<a class="btn-wa" href="https://wa.me/60142992105?text=Saya%20nak%20tempah%20Embun%20Kurung%20RM119" target="_blank">Tempah WhatsApp</a>
+</div>
+
+<div class="produk-card">
+<div class="slider">
+  <div class="slides">
+  <div class="slide-item"><img src="imageee/kiranapowderblue.jpg" alt="elvara"><p class="slide-title">powder blue - XL</p></div>
+  <div class="slide-item"><img src="imageee/kiranaburgundy.jpg" alt="elvara"><p class="slide-title">burgundy - XL</p></div>
+  <div class="slide-item"><img src="imageee/kiranarichbrown.jpg" alt="elvara"><p class="slide-title">rich brown - XL</p></div>
+  <div class="slide-item"><img src="imageee/kiranablack.jpg" alt="elvara"><p class="slide-title">black - S,L,XL</p></div>
+  <div class="slide-item"><img src="imageee/kiranachampagne.jpg" alt="elvara"><p class="slide-title">champagne - XL</p></div>
+  </div>
+<button class="prev" onclick="moveSlide(this,-1)">&#10094;</button>
+<button class="next" onclick="moveSlide(this,1)">&#10095;</button>
+</div>
+<h3>Kirana kurung</h3>
+<p>Harga: RM269</p>
+<a class="btn-wa" href="https://wa.me/60142992105?text=Saya%20nak%20tempah%20Embun%20Kurung%20RM119" target="_blank">Tempah WhatsApp</a>
+</div>
+
+<div class="produk-card">
+<div class="slider">
+  <div class="slides">
+  <div class="slide-item"><img src="imageee/helianaoffwhite.jpg" alt="elvara"><p class="slide-title">offwhite - XS,S,L</p></div>
+  <div class="slide-item"><img src="imageee/helianachampagne.jpg" alt="elvara"><p class="slide-title">champagne - S,M,L</p></div>
+  <div class="slide-item"><img src="imageee/helianaburgundy.jpg" alt="elvara"><p class="slide-title">burgundy - XS,S</p></div>
+</div>
+<button class="prev" onclick="moveSlide(this,-1)">&#10094;</button>
+<button class="next" onclick="moveSlide(this,1)">&#10095;</button>
+</div>
+<h3>Heliana kurung</h3>
+<p>Harga: RM269</p>
+<a class="btn-wa" href="https://wa.me/60142992105?text=Saya%20nak%20tempah%20Embun%20Kurung%20RM119" target="_blank">Tempah WhatsApp</a>
+</div>
+
+<div class="produk-card">
+<div class="slider">
+  <div class="slides">
+  <div class="slide-item"><img src="imageee/dahliaoffwhite.jpg" alt="elvara"><p class="slide-title">offwhite - XS,S,M,L</p></div>
+  <div class="slide-item"><img src="imageee/dahliachampagne.jpg" alt="elvara"><p class="slide-title">champagne - XS,S,L</p></div>
+  <div class="slide-item"><img src="imageee/dahliablack.jpg" alt="elvara"><p class="slide-title">black - XS,S,M,L</p></div>
+  <div class="slide-item"><img src="imageee/dahliabrown.jpg" alt="elvara"><p class="slide-title">brown - XS,S</p></div>
+  <div class="slide-item"><img src="imageee/dahliaburgundy.jpg" alt="elvara"><p class="slide-title">burgundy - XS,S,M,L</p></div>
+  <div class="slide-item"><img src="imageee/dahlianavyblue.jpg" alt="elvara"><p class="slide-title">navy blue - XS,S,M,L</p></div>
+  <div class="slide-item"><img src="imageee/dahliaemeraldgreen.jpg" alt="elvara"><p class="slide-title">emerald green - XS,S,M,L</p></div>
+</div>
+<button class="prev" onclick="moveSlide(this,-1)">&#10094;</button>
+<button class="next" onclick="moveSlide(this,1)">&#10095;</button>
+</div>
+<h3>Dahlia kurung</h3>
+<p>Harga: RM169</p>
+<a class="btn-wa" href="https://wa.me/60142992105?text=Saya%20nak%20tempah%20Embun%20Kurung%20RM119" target="_blank">Tempah WhatsApp</a>
+</div>
+
+<div class="produk-card">
+<div class="slider">
+  <div class="slides">
+  <div class="slide-item"><img src="imageee/keishachampagne.jpg" alt="elvara"><p class="slide-title">champagne - XS,S,M,L,XL</p></div>
+  <div class="slide-item"><img src="imageee/keishasilver.jpg" alt="elvara"><p class="slide-title">silver - XS,S,M,L,XL</p></div>
+  <div class="slide-item"><img src="imageee/keishalavender.jpg" alt="elvara"><p class="slide-title">lavender - XS,S,M,L,XL</p></div>
+  <div class="slide-item"><img src="imageee/keishadustypink.jpg" alt="elvara"><p class="slide-title">dusty pink - S,M,L,XL</p></div>
+</div>
+<button class="prev" onclick="moveSlide(this,-1)">&#10094;</button>
+<button class="next" onclick="moveSlide(this,1)">&#10095;</button>
+</div>
+<h3>Elvara mini kurung</h3>
+<p>Harga: RM269</p>
+<a class="btn-wa" href="https://wa.me/60142992105?text=Saya%20nak%20tempah%20Embun%20Kurung%20RM119" target="_blank">Tempah WhatsApp</a>
+</div>
+
+
+
+</div>
+</section>
+
+<footer>
+<p>© 2025 • PERSONAL SHOPPER JIKAH</p>
+</footer>
+
+<script>
+function moveSlide(btn, direction){
+  const slider = btn.parentElement;
+  const slides = slider.querySelector(".slides");
+  const allSlides = slides.querySelectorAll(".slide-item");
+  let index = parseInt(slides.getAttribute("data-index")) || 0;
+  index += direction;
+  if(index < 0) index = allSlides.length - 1;
+  if(index >= allSlides.length) index = 0;
+  slides.style.transform = `translateX(-${index*100}%)`;
+  slides.setAttribute("data-index", index);
+}
+</script>
+
+</body>
+</html>
+
